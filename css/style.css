@@ -4406,11 +4406,22 @@ p.copyright {
     display: inline-block;
     font-size: 1em;
     list-style-type: none;
-    padding: 3px;
+    padding: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   .section-title-white iframe {
     height: 900px;
+  }
+  .count-down li span {
+    font-size: 27px;
+    font-weight: 600;
+}
+}
+
+@media (max-width: 330px) {
+  .count-down li {
+    color: #8596a5;
+    padding: 6px;
   }
 }
